@@ -4,18 +4,18 @@
 
 /* --- CSS Custom Properties --- */
 :root {
-  --color-primary: #e63946;
-  --color-primary-dark: #c1121f;
-  --color-primary-light: #ff6b6b;
-  --color-secondary: #1d3557;
-  --color-secondary-light: #457b9d;
-  --color-accent: #f4a261;
-  --color-dark: #0d1b2a;
-  --color-text: #2b2d42;
-  --color-text-light: #6c757d;
-  --color-bg: #ffffff;
-  --color-bg-alt: #f8f9fa;
-  --color-bg-warm: #fff8f0;
+  --color-primary: #d4380d;
+  --color-primary-dark: #ad2e0a;
+  --color-primary-light: #e8634a;
+  --color-secondary: #1a3a2a;
+  --color-secondary-light: #2d6a4f;
+  --color-accent: #e67e22;
+  --color-dark: #111111;
+  --color-text: #1a1a1a;
+  --color-text-light: #3d3d3d;
+  --color-bg: #e8f5e9;
+  --color-bg-alt: #c8e6c9;
+  --color-bg-warm: #fff3e0;
 
   --font-heading: 'Playfair Display', Georgia, serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
@@ -206,7 +206,7 @@ ul {
 }
 
 .navbar.scrolled {
-  background: rgba(255, 255, 255, 0.97);
+  background: rgba(232, 245, 233, 0.97);
   backdrop-filter: blur(20px);
   padding: 12px 0;
   box-shadow: var(--shadow-sm);
@@ -351,7 +351,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-secondary) 50%, #2a4a7f 100%);
+  background: linear-gradient(135deg, #0b3d0b 0%, #1a5e2a 50%, #2d6a4f 100%);
   overflow: hidden;
 }
 
@@ -457,7 +457,7 @@ ul {
 
 /* --- Stats Bar --- */
 .stats-bar {
-  background: var(--color-primary);
+  background: linear-gradient(90deg, #d4380d, #e67e22);
   padding: 40px 0;
 }
 
@@ -507,7 +507,7 @@ ul {
 .image-placeholder {
   width: 100%;
   aspect-ratio: 3/4;
-  background: linear-gradient(135deg, var(--color-secondary), var(--color-secondary-light));
+  background: linear-gradient(135deg, #1a5e2a, #2d6a4f);
   border-radius: var(--radius-lg);
   display: flex;
   flex-direction: column;
@@ -553,7 +553,7 @@ ul {
 
 /* --- Mission Section --- */
 .mission {
-  background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-secondary) 100%);
+  background: linear-gradient(135deg, #0b3d0b 0%, #1a5e2a 100%);
   position: relative;
   overflow: hidden;
 }
@@ -666,7 +666,7 @@ ul {
 
 .service-card-featured {
   border: 2px solid var(--color-primary);
-  background: linear-gradient(135deg, #fff 0%, #fff5f5 100%);
+  background: linear-gradient(135deg, #fff 0%, #fff3e0 100%);
 }
 
 .service-card-featured::before {
@@ -759,7 +759,7 @@ ul {
 .book-front {
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, var(--color-dark), var(--color-secondary));
+  background: linear-gradient(135deg, #0b3d0b, #1a5e2a);
   border-radius: 4px 16px 16px 4px;
   box-shadow: var(--shadow-xl), inset -2px 0 8px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -782,7 +782,7 @@ ul {
   top: 5%;
   width: 6px;
   height: 90%;
-  background: linear-gradient(180deg, #0d1b2a, #1d3557);
+  background: linear-gradient(180deg, #0b3d0b, #1a5e2a);
   border-radius: 4px 0 0 4px;
   transform: rotateY(30deg);
   transform-origin: right;
@@ -1000,7 +1000,7 @@ ul {
 
 /* --- Contact Section --- */
 .contact {
-  background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-secondary) 100%);
+  background: linear-gradient(135deg, #0b3d0b 0%, #1a5e2a 100%);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -1040,7 +1040,7 @@ ul {
 
 /* --- Footer --- */
 .footer {
-  background: #080f1a;
+  background: #0a1f0a;
   color: rgba(255, 255, 255, 0.7);
   padding: 60px 0 30px;
 }
