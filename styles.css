@@ -7,14 +7,14 @@
   --color-primary: #d4380d;
   --color-primary-dark: #ad2e0a;
   --color-primary-light: #e8634a;
-  --color-secondary: #0a7a42;
-  --color-secondary-light: #00c96b;
+  --color-secondary: #1a3a2a;
+  --color-secondary-light: #2d6a4f;
   --color-accent: #ffb74d;
   --color-dark: #000000;
   --color-text: #000000;
   --color-text-light: #1a1a1a;
-  --color-bg: #d5f5e0;
-  --color-bg-alt: #b8eec9;
+  --color-bg: #e8f5e9;
+  --color-bg-alt: #c8e6c9;
   --color-bg-warm: #fff3e0;
 
   --font-heading: 'Playfair Display', Georgia, serif;
@@ -206,7 +206,7 @@ ul {
 }
 
 .navbar.scrolled {
-  background: rgba(213, 245, 224, 0.97);
+  background: rgba(232, 245, 233, 0.97);
   backdrop-filter: blur(20px);
   padding: 12px 0;
   box-shadow: var(--shadow-sm);
@@ -351,7 +351,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #05753e 0%, #00b35a 50%, #00c96b 100%);
+  background: linear-gradient(135deg, #0b3d0b 0%, #1a5e2a 50%, #2d6a4f 100%);
   overflow: hidden;
 }
 
@@ -507,7 +507,7 @@ ul {
 .image-placeholder {
   width: 100%;
   aspect-ratio: 3/4;
-  background: linear-gradient(135deg, #00b35a, #00c96b);
+  background: linear-gradient(135deg, #1a5e2a, #2d6a4f);
   border-radius: var(--radius-lg);
   display: flex;
   flex-direction: column;
@@ -553,7 +553,7 @@ ul {
 
 /* --- Mission Section --- */
 .mission {
-  background: linear-gradient(135deg, #05753e 0%, #00b35a 100%);
+  background: linear-gradient(135deg, #0b3d0b 0%, #1a5e2a 100%);
   position: relative;
   overflow: hidden;
 }
@@ -759,7 +759,7 @@ ul {
 .book-front {
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #05753e, #00b35a);
+  background: linear-gradient(135deg, #0b3d0b, #1a5e2a);
   border-radius: 4px 16px 16px 4px;
   box-shadow: var(--shadow-xl), inset -2px 0 8px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -782,7 +782,7 @@ ul {
   top: 5%;
   width: 6px;
   height: 90%;
-  background: linear-gradient(180deg, #05753e, #00b35a);
+  background: linear-gradient(180deg, #0b3d0b, #1a5e2a);
   border-radius: 4px 0 0 4px;
   transform: rotateY(30deg);
   transform-origin: right;
@@ -1000,7 +1000,7 @@ ul {
 
 /* --- Contact Section --- */
 .contact {
-  background: linear-gradient(135deg, #05753e 0%, #00b35a 100%);
+  background: linear-gradient(135deg, #0b3d0b 0%, #1a5e2a 100%);
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -1040,7 +1040,7 @@ ul {
 
 /* --- Footer --- */
 .footer {
-  background: #034a28;
+  background: #0a1f0a;
   color: rgba(255, 255, 255, 0.7);
   padding: 60px 0 30px;
 }
