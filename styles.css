@@ -353,7 +353,7 @@ ul {
   align-items: center;
   justify-content: center;
   background: #000 url('images/hero-portrait.png') no-repeat center center;
-  background-size: cover;
+  background-size: 103%;
   overflow: hidden;
 }
 
