@@ -207,7 +207,7 @@ ul {
 }
 
 .navbar.scrolled {
-  background: rgba(232, 245, 233, 0.97);
+  background: #1a5e2a;
   backdrop-filter: blur(20px);
   padding: 12px 0;
   box-shadow: var(--shadow-sm);
@@ -348,15 +348,10 @@ ul {
 /* --- Hero Section --- */
 .hero {
   position: relative;
-  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  background-color: #1a5e2a;
-  background-image: url('images/hero-bg.png');
-  background-size: cover;
-  background-position: center bottom;
-  background-repeat: no-repeat;
+  background: #1a5e2a;
   overflow: hidden;
 }
 
@@ -371,14 +366,26 @@ ul {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, #1a5e2a 0%, #1a5e2a 12%, rgba(26, 94, 42, 0.4) 25%, rgba(26, 94, 42, 0.4) 100%);
+  background: transparent;
 }
 
 .hero-content {
   position: relative;
   z-index: 2;
   text-align: center;
-  padding: 120px 0 80px;
+  padding: 140px 0 40px;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 24px 0;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
 }
 
 .hero-tag {
