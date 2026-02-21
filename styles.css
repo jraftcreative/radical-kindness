@@ -202,6 +202,7 @@ ul {
   right: 0;
   z-index: 1000;
   padding: 20px 0;
+  background: #1a5e2a;
   transition: var(--transition);
 }
 
@@ -354,7 +355,7 @@ ul {
   background-color: #1a5e2a;
   background-image: url('images/hero-bg.png');
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   overflow: hidden;
 }
@@ -370,7 +371,7 @@ ul {
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(26, 94, 42, 0.4);
+  background: linear-gradient(to bottom, #1a5e2a 0%, #1a5e2a 12%, rgba(26, 94, 42, 0.4) 25%, rgba(26, 94, 42, 0.4) 100%);
 }
 
 .hero-content {
